@@ -12,6 +12,7 @@
       in pkgs.mkShell {
         packages = with pkgs; [
           fish
+          clang-tools_17
         ];
 
         shellHook = with pkgs; ''
